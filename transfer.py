@@ -12,7 +12,7 @@ sys.setdefaultencoding('utf8')
 
 def fetch_data(sql):
     try:
-        db = MySQLdb.connect(host="120.27.165.49", user="zhaibinxu", passwd="VXcG94Er", db="dtbserver", port=13307,
+        db = MySQLdb.connect(host="xxx", user="xxx", passwd="xxx", db="dtbserver", port=13307,
                                 charset="utf8")
     except Exception, ee:
         print ee
@@ -65,7 +65,7 @@ def trip_pay(s):
 
 # connect to database
 try:
-    client = MongoClient("mongodb://lionking:Tv6pAzDp@60.205.187.223:27017/Simba?authMechanism=SCRAM-SHA-1")
+    client = MongoClient("mongodb://xxx")
     db_mongo = client.Simba
     collection = db_mongo.entity_inner_product2
 except Exception, e:
