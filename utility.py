@@ -13,7 +13,7 @@ sys.setdefaultencoding('utf-8')
 
 
 try:
-    client = MongoClient("mongodb://lionking:Tv6pAzDp@60.205.187.223:27017/Simba?authMechanism=SCRAM-SHA-1")
+    client = MongoClient("mongodb://xxx")
     db_mongo = client.Simba
     collection_out = db_mongo.faq
     collection_in = db_mongo.sentence_vector
