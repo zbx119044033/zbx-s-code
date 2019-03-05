@@ -21,7 +21,7 @@ def my_dump():
 
 
 try:
-    client = MongoClient("mongodb://lionking:Tv6pAzDp@60.205.187.223:27017/Simba?authMechanism=SCRAM-SHA-1")
+    client = MongoClient("mongodb://xxx")
     db_mongo = client.Simba
     collection = db_mongo.faq
 except Exception, e:
