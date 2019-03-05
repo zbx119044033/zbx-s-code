@@ -12,7 +12,7 @@ sys.setdefaultencoding('utf8')
 
 def fetch_data(sql):
     try:
-        db = MySQLdb.connect(host="120.27.165.49", user="zhaibinxu", passwd="VXcG94Er", db="dtbserver", port=13307,
+        db = MySQLdb.connect(host="xxx", user="xxx", passwd="xxx", db="dtbserver", port=13307,
                                 charset="utf8")
     except Exception, ee:
         print ee
