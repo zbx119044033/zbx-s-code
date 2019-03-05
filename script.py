@@ -24,7 +24,7 @@ jieba.load_userdict('entitydict.txt')
 连接mongo获取数据
 '''
 def mongo():
-    client = pymongo.MongoClient('mongodb://lionking:Tv6pAzDp@''60.205.187.223'':27017/Simba?authMechanism=SCRAM-SHA-1')
+    client = pymongo.MongoClient('mongodb://xxx')
     db = client.get_database('Simba')
     collection = db.get_collection('faq')
     pattern = re.compile(r'\n|\\&quot')
